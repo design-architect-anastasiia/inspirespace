@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>InspireSpace Gallery</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>InspireSpace – Architecture Gallery</h1>
+  <a href="{{ url_for('upload') }}">➕ Upload New Render</a>
+  <hr>
+
+  {% if gallery %}
+    <div class="gallery">
+      {% for item in gallery %}
+        <div class="card">
+          <img src="{{ url_for('static', filename='uploads/' + item.filename) }}" alt="Render">
+          <h3>{{ item.title }}</h3>
+          <p><strong>Author:</strong> {{ item.author }}</p>
+          <p><strong>Description:</strong> {{ item.description }}</p>
+          <p><strong>Mood:</strong> {{ item.mood }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No renders uploaded yet.</p>
+  {% endif %}
+</body>
+</html>
