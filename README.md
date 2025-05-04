@@ -13,7 +13,7 @@ inspirespace/
  - gallery_data.json
  - requirements.txt
  - static/
- - style.css
+   - style.css
    - uploads/
       - example_render1.jpg
       - example_render2.jpg
@@ -69,3 +69,8 @@ python app.py
 ```
 
 Open http://localhost:5000 in your browser.
+
+📫 Contact
+
+Have renders to share or ideas to contribute?
+Reach out via GitHub: @design-architect-anastasiia
