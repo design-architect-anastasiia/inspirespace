@@ -1,0 +1,18 @@
+[
+  {
+    "filename": "example_render1.jpg",
+    "title": "Modern Loft in Berlin",
+    "description": "A minimal industrial space with high ceilings and natural light.",
+    "mood": "industrial, bright, urban",
+    "author": "Anastasiia Vasylenko",
+    "timestamp": "20250504120000"
+  },
+  {
+    "filename": "example_render2.jpg",
+    "title": "Zen Garden Retreat",
+    "description": "Calm interior inspired by traditional Japanese architecture.",
+    "mood": "zen, natural, wood",
+    "author": "Anastasiia Vasylenko",
+    "timestamp": "20250504121000"
+  }
+]
