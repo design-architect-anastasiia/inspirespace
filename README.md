@@ -9,17 +9,17 @@ Created by [@design-architect-anastasiia](https://github.com/design-architect-an
 📁 Project Structure
 
 inspirespace/
-├── app.py
-├── gallery_data.json
-├── requirements.txt
-├── static/
-│   ├── style.css
-│   └── uploads/
-│       ├── example_render1.jpg
-│       └── example_render2.jpg
-├── templates/
-│   ├── index.html
-│   └── upload.html
+ - app.py
+ - gallery_data.json
+ - requirements.txt
+ - static/
+ - style.css
+   - uploads/
+      - example_render1.jpg
+      - example_render2.jpg
+ - templates/
+   - index.html
+   - upload.html
 
 
 ## 💡 Features
