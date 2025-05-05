@@ -2,8 +2,6 @@
 
 **InspireSpace** is a web-based gallery for architectural inspiration, where you can upload, view, and share 3D renders of interiors, moods, and material concepts.
 
-Created by [@design-architect-anastasiia](https://github.com/design-architect-anastasiia)
-
 ---
 
 📁 Project Structure
@@ -21,6 +19,7 @@ inspirespace/
    - index.html
    - upload.html
 
+---
 
 ## 💡 Features
 
@@ -73,4 +72,5 @@ Open http://localhost:5000 in your browser.
 📫 Contact
 
 Have renders to share or ideas to contribute?
-Reach out via GitHub: @design-architect-anastasiia
+
+Reach out via GitHub: [@design-architect-anastasiia](https://github.com/design-architect-anastasiia/)
